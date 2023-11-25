@@ -75,7 +75,6 @@ public class PetServiceTest {
     }
     @Test//Позитивный тест кейс для delete запроса хэндлер Pet:
     public void deletePetWithValidId() {
-//        Specs.installSpec(Specs.requestSpec(), Specs.responseSpecOK200());
         // Создаем новое животное
         CreateNewPet createNewPet = new CreateNewPet(23, "doggie","pending");
         given()
